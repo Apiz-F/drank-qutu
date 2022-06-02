@@ -12,10 +12,10 @@
 
 @screen lg {
   .root {
-    @apply flex-row items-start justify-center py-32;
+    @apply flex-row items-start justify-center w-screen h-screen;
   }
   .title {
-    @apply text-5xl max-w-xl text-right leading-10 -mt-3;
+    @apply text-5xl max-w-xl text-left leading-10 -mt-3;
     line-height: 3.5rem;
   }
   .description {

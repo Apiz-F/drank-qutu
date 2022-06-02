@@ -66,7 +66,7 @@ const UserNav: React.FC<{
             </Link>
           </li>
         )}
-        {process.env.COMMERCE_CUSTOMERAUTH_ENABLED && (
+        {/* {process.env.COMMERCE_CUSTOMERAUTH_ENABLED && (
           <li className={s.item}>
             <Dropdown>
               <DropdownTrigger>
@@ -81,7 +81,7 @@ const UserNav: React.FC<{
               <CustomerMenuContent />
             </Dropdown>
           </li>
-        )}
+        )} */}
         <li className={s.mobileMenu}>
           <Button
             className={s.item}
